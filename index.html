@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Text to Emoji</title>
+</head>
+<body>
+    <div class="container">
+    
+    <div class="switch">
+       <div class="encrypt">
+          <h2> Encrypt </h2>
+       </div>
+       <div class="decrypt">
+          <h2> Decrypt </h2>
+       </div>
+     </div>
+    
+        <div class="encryption">
+           <h1>Text to Emoji Encrypter</h1>
+           <input type="text" id="inputText" placeholder="Enter text to encrypt..">
+           <button id="convertButton">Encrypt</button>
+           <div id="emojiDisplay"></div>
+        </div>
+        
+        <div class="decryption">
+            <h1>Emoji to Text Decrypter</h1>
+            <input type="text" id="decryptText" placeholder="Paste Emoji to decrypt..">
+            <button id="DecryptBtn">Decrypt</button>
+            <div id="textDisplay"></div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

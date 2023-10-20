@@ -1,0 +1,99 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height:100vh;
+    background-color:#f2f2f2;
+    background-image:url('https://images.pexels.com/photos/3849160/pexels-photo-3849160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size:cover;
+}
+
+.container {
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    border:1px solid #fff;
+}
+.switch {
+  width:100%;
+  background-color: #222;
+  border-radius:10px;
+  display:flex;
+  padding:8px 0;
+  justify-content: space-evenly;
+  align-items:center;
+}
+.encrypt {
+  padding:10px;
+  text-align:center;
+  background-color: #757575;
+  border-radius:10px;
+  border: 3px solid black;
+}
+.decrypt {
+padding:10px;
+text-align:center;
+background-color: #424242;
+border-radius:10px;
+}
+.decrypt h2 {
+  padding:2px 25px;
+  color: #757575;
+}
+.encrypt h2 {
+  padding:2px 25px;
+  color: #F5F5F5;
+}
+h1 {
+    font-size: 24px;
+    margin:20px 20px;
+    color:#fff;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border:none;
+    border-radius: 5px;
+    outline-style:ridge;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight:500;
+}
+
+button:hover {
+    background-color: #444444;
+}
+
+#emojiDisplay , #textDisplay{
+    margin-top: 20px;
+    font-size: 24px;
+    border: none;
+    outline-style:ridge;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.encryption {
+   display:block;
+}
+.decryption {
+  display:none;
+}
